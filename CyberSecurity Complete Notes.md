@@ -1,504 +1,351 @@
-A **cyber attack** is a deliberate attack attempt by hackers to steal, damage or disrupt computer systems. ex: sending fake bank emails to steal you login info...
+A cyber attack is a deliberate attack attempt by hackers to steal, damage or disrupt computer systems.
+Ex: sending fake bank emails to steal your login info...
 
+## Types of Cyber Attacks...
 
+* Phishing
+* Malware
+* Ransomware
+* DDoS Attack
+* Man-in-the-Middle Attack
+* SQL Injection
+* Password Attacks
 
-Types of cyber Attack...
+### Phishing
 
+Fake emails, messages, websites trick you into giving personal info.
 
+Ex: You get an email, "Your bank account will be closed and you click to verify that link steals your credentials..."
 
-**phising**
+### Malware
 
-**malware**
+Malicious Software (virus, worm, trojan) installed secretly to harm your system, or steal data.
 
-**Raansomware**
+Ex: Downloading a free cracked game that secretly installs a keylogger.
 
-**DDOS Attack**
+### Ransomware
 
-**man in the middle attack**
+Hackers lock your files and demand money (ransom) to unlock them.
 
-**SQL injection**
+Ex: A hospital patient's data is encrypted and hackers ask millions to restore it.
 
-**Password Attacks**
+### DDoS (Distributed Denial of Service) Attack
 
+Flooding a website or server with huge traffic until it crashes.
 
+Ex: An e-commerce site attacked during a big sale, making it unavailable to customers.
 
+### Man-in-the-Middle Attack
 
+Hackers secretly intercept communication between two parties.
 
-**Phishing** --- Fake emails, msgs, websites trick you into giving personal iinfo
+Ex: Using free public Wi-Fi at a cafe, a hacker spies on your banking session.
 
+### SQL Injection
 
+Injecting malicious code into a website's database through forms or inputs.
 
-ex: you get an email, " your bank account will be closed and you click to verify that link steals your credentialss ...
+Ex: A hacker types malicious commands in a login box and directly accesses all stored user data.
 
+### Password Attacks
 
+Guessing, stealing, cracking weak passwords.
 
-**Malware** ---> Malicious SSoftware (virus, worm, trojan) installed secretly to harm ur system, or steal data.
+Ex: Someone tries "12345" or "password" to break into your account.
 
-ex: downloading a free cracked game that secretly installs a keylogger .
+---
 
+## WHY UNDERSTANDING ALL THESE IS IMPORTANT?
 
+Awareness helps you recognise threats early.
 
+Prevention measures (strong passwords, antivirus, 2FA, not clicking suspicious links) reduce risks.
 
+Cyber Security careers demand strong knowledge of these attack types.
 
-**Ransomware** ----> Hackers lock ur files and demand money (ransom) to unlock them..
+---
 
-ex: A hospital patients data is encrypted abd hackers ask millions to restore it.
+# CIA Triad (Foundation of Security)
 
+**Confidentiality, Integrity, Availability**
 
+### Confidentiality
 
-**DDoS (Distributed denial of service ) attack** ----->  flooding a website or server with huge traffic until iit crashes.
-
-
-
-ex : An ecommerce site attacked during big sale, making it unavailable to customers....
-
-
-
-**Man in the middle attack** --->> hackers secretly intercepts communication b/w two parties.
-
-ex: using free public wifi at a cafee  a hacker spies on your banking session...
-
-
-
-
-
-**SQL injection** --->>injecting malicious code into a website's database through forms or inputs.
-
-
-
-ex: a hacker types  malicious commands in a login box and directly accesses all storredd user data.
-
-
-
-**Password AAttacks** --->
-
-guessing, stealing, cracking weak passwords
-
-ex: someone tries "12345" or " password" to break  into ur account.
-
-
-
-
-
-WHY UNDERSTANDING ALL THESE IS IMP ??
-
-
-
-awareness helps u recognise threats early.
-
-
-
-prevention measures (strong passwords, antivirus, 2FA, not clicking suspicious links) reduce risks.'
-
-
-
-
-
-Cyber Security careers demand strong noowlwdge of these attack types.
-
-
-
-**CIA Triad (Foundation of Security) ---**
-
-
-
-**confidential, integrity, Availability --**
-
-
-
-**Confidential ---** Ensures that sensitive information is onky accessible to authorized indivisuals.
+Ensures that sensitive information is only accessible to authorized individuals.
 
 Protects against unauthorized individuals.
 
 Using strong passwords and encryption so only you can access your online banking account.
 
+### Integrity
 
-
-
-
-**Integrity ---**  Garauntees  that information remains accrate, consistent and unaltered by unauthorized users.
+Guarantees that information remains accurate, consistent and unaltered by unauthorized users.
 
 Prevents unauthorized modification of data.
 
-A medical record system ensures that no one can change a patients prescription without doctor approval.
+A medical record system ensures that no one can change a patient's prescription without doctor approval.
 
+### Availability
 
+Ensures that systems, applications and data are accessible when needed by authorized users.
 
+Protects against downtime and service disruption.
 
+Online banking remaining available 24/7 even during high traffic or cyberattacks.
 
-**Availability ---** Ensures that systems, applications and data are accessible when needed by authorized users.
+---
 
+# DAD TRIAD (Attacker's Goal)
 
+### Disclosure
 
-protects against downtime and service disruption.
+Unauthorized access or exposure of sensitive information.
 
-online banking remaining available 24/7 even during high traffic or cyberattacks.
+Violates confidentiality.
 
+A hacker leaks customer credit card details from an e-commerce database.
 
+### Alteration
 
+Unauthorized modification, manipulation, or corruption of data.
 
+Violates integrity.
 
+An attacker changes a patient's medical prescription in a hospital system.
 
+### Denial
 
-**DAD TRIAD (Attackers Goal)---->>**  
+Disrupting or preventing legitimate access to systems, applications, or data.
 
-**Disclosure --** unauthorized access or exposure of sensitive information. 
+Violates availability.
 
-violates confidentiality.
+A DDoS (Distributed Denial of Service) attack makes an online banking service unavailable.
 
-a hacker leaks customer credit card details from an e-commerce database  
+---
 
+# CIA vs DAD
 
+**CIA TRIAD = Defender's Goal**
+(Protect Confidentiality, Integrity, Availability)
 
-**Alteration -->>**  unauthorized modification, manipulation, or corruption of data. 
+**DAD Triad = Attacker's Goal**
+(Cause Disclosure, Alteration, Denial)
 
-violates integrity.
+---
 
-an attacker changes a patient's medical. prescription in a hospital system.
+# Parkerian Hexad (SIX Elements Of Information Security)
 
+## What is Parkerian Hexad?
 
+It is an expanded model of information security that goes beyond the traditional CIA Triad.
 
-**Denial--->>** Disrupting or preventing legitimate access to systems, applications, or data.
+Introduced by Donn B. Parker, Famous Security Researcher.
 
+Instead of just 3 elements (Confidentiality, Integrity, Availability), it defines 6 essential attributes of information security.
 
+## WHY IS IT IMPORTANT?
 
-violates availability.
+CIA triad is powerful, but sometimes too narrow for modern digital security challenges.
 
-A DDos (Distributed Denial of Service) attack, makes an Online Banking Service Unavailable.
+The Parkerian Hexad adds three more attributes (Possession, Authentication, Utility) which cover gaps left by CIA.
 
+It gives a more complete framework for analyzing, understanding, and designing security policies, systems, and defenses.
 
+**CONFIDENTIALITY, INTEGRITY, AVAILABILITY, POSSESSION**
 
+### Possession (OR) Control
 
+Refers to the ownership or control of information and physical media.
 
-**CIA vs DAD ---**
+Having access to data doesn't always mean having legal/authorized possession.
 
+If a hacker steals a USB with patient data, confidentiality might still be intact (if encrypted), but Possession is lost.
 
+### Authenticity
 
-**CIA TRIAD** = Defender's Goal (Protect confidentiality, integrity, Availability)
-
-
-
-**DAD Triad**  == Attacker's Goal( Cause Disclosure, Alteration, Denial).
-
-
-
-**Parkerian Hexad (SIX Elements Of Information Security)**
-
-
-
-
-
-**What is Parkerian Hexad ?**
-
-
-
-It is an expanded model oof information security  that goes beyond the traditional CIA Triad. 
-
-Introduced by Donn B. Parker 
-
-Famous Security Researcher 
-
-Instead of just  3 elements (confidentiality, integrity, Availability), it defines 6 essential attributes of  information security.
-
-
-
-
-
-**WHY IS IT IMPORTANT?**
-
-
-
-CIA triad is powerfull, but sometimes too narrow for modern digital security challenges. 
-
-
-
-The pparkerain Hexad adds three more attributes (possession, Authentication, Utility) which cover gaps left by CIA.
-
-
-
-It Gives a more complete framework for analyzing, understanding, and designing seurity policies, systems, and defenses. 
-
-
-
-CONFIDENTIALITY, INTEGRITY, AVAILABILITY, POSSESSION
-
-
-
-&#x20;**POSSESSION(OR) CONTROL --->>** refers to the ownership or control of information and physical media.
-
-having access to data doesn't always mean having legal/ authorized possession.
-
-
-
-If a Hacker steals a USB with patient data, confidentiality might still be  intact(if encrypted), but Possession is lost.
-
-
-
-
-
-**Authenticity --->>>** verifies that information, transactions and identities are genuine.
+Verifies that information, transactions and identities are genuine.
 
 Prevents Impersonification and Forgery.
 
-Digital Signaures on emails confirm that the sender is Authentic.
+Digital Signatures on emails confirm that the sender is Authentic.
 
-
-
-
-
-Utility ---->>>
+### Utility
 
 Ensures that the data is useful, meaningful, and in a usable format.
 
-Even if data is unavailable. if it's corrupted oor unusable, its utility is lost.
+Even if data is unavailable, if it's corrupted or unusable, its utility is lost.
 
 A corrupted medical file that opens but shows unreadable text loses utility.
 
+---
 
+# Network Concepts For Cyber Security
 
+### IP Address
 
+A unique number label assigned to each device on a network.
 
-**Network Concepts For Cyber Security** 
+**IPv4:** 192.168.1.1
 
-&#x20;ip address --  a unique number label assigned to each device ona network 
+**IPv6:** 2001:0db8:85a3:0000:0000:8a2e:0370:7334
 
-IPV4 -->> 192.168.1.1
+Attackers trace IPs to launch attacks (e.g., DDoS, Scanning).
 
+VPNs help hide IP addresses for privacy and protection.
 
+### DNS — Domain Name System
 
-ipv6--->> 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+The phonebook of the internet — translates human-friendly domain names into IP addresses.
 
+**google.com → 142.250.190.14**
 
+Vulnerable to DNS spoofing/poisoning (fake IP redirection).
 
-attackers trace ips to launch attacks(eg: DDos, Scanning)
+DNSSEC provides a secure domain name resolution.
 
+### HTTP — Hypertext Transfer Protocol
 
+Transfers data without encryption.
 
-Vpns help hide ip addresses for privacy and Protection.
+### HTTPS — HTTP + SSL/TLS Encryption
 
+Harder for attackers.
 
+---
 
+# VPN — Virtual Private Network
 
+Creates a secure encrypted tunnel for internet traffic while masking your IP address.
 
-**Dns -- Domain Name System.**
+* Hides IP (ensures anonymity).
+* Encrypts traffic (safe on public Wi-Fi).
+* Prevents attackers from tracing your identity.
 
-**The phonebook of the internet -- translates human friendly domain names into ip addresess.**
+**Risk:** Untrusted VPNs may log or track data.
 
+---
 
+# Firewall Basics
 
-**google.com-->>>142.250.190.14**
+A security gatekeeper that monitors and controls network traffic based on allow/deny rules.
 
+### Hardware Firewall
 
+### Software Firewall
 
-**vulnerable to DNS spoofing/poisoning(fake IP redirection)**
+* Blocks unauthorized access.
+* Prevents malware and hacking attempts.
+* Works with IDS/IPS for advanced threat detection.
 
+---
 
+# What Is Cryptography?
 
-**DNSSEC provides a secure domain name resolution.**
+Cryptography is the science of securing information by transforming it into an unreadable format, ensuring only authorized parties can access it.
 
-
-
-
-
-**HTTP --- HYPERTEXT TRANSFER PROTOCOL.(TRANSFERS DATA WITHHOUT ENCRYPTION)**
-
-**HTTPS ----- HTTP+SSL/TLS ENCRYPTION.(HARDER FOR ATTACKERS** 
-
-
-
-
-
-**VPN --- VIRTUAL PRIIVATE NETWORK.**
-
-Creates a secure encrypted tunnel for internet traffic while masking your ip addresess.
-
-hides ip(ensures anonymity).
-
-
-
-encrypts traffic(safe on public wifi).
-
-
-
-prevents attackers from tracing your identity.
-
-RISK:  Untrusted VOPNS may log or track data.
-
-
-
-
-
-
-
-**Farewall Basics...**
-
-
-
-**a security gatekeeper that monitors and controls network traffic bbased on allow/deny rules.**
-
-
-
-**Hardware firewall**
-
-**software firewall**
-
-**blocks unauthoorizedd access**
-
-**prevents malware and hacking attempts.**
-
-**works with IDS/IPS FOR ADVANCED Threat detection.**
-
-
-
-
-
-
-
-**What Is Cryptography?**
-
-
-
-cryptography is  the science of securing information by transforming it into an unreadable format, ensuring only authorized parties can access iit.
-
-It protects  Confidentiality, integrity, authentication, and Non - Repudiation data. 
+It protects Confidentiality, Integrity, Authentication, and Non-Repudiation data.
 
 Used in Secure communication, online transactions, digital identities and cybersecurity.
 
+---
 
+# CORE CONCEPTS OF CRYPTOGRAPHY
 
+### Encryption
 
+The process of converting Plain Text into Cipher Text using an algorithm and a key.
 
-**CORE CONCEPTS OF CRYPTOGRAPHY...**
+Ensures Confidentiality.
 
+### Symmetric Encryption
 
+Same key is used for both encryption and decryption.
 
+Eg: AES, DES.
 
+### Asymmetric Encryption
 
-**ENCRYPTION ---** THE PROCESS OF CONVERTING PLAIN TEXT INTO CIPHER TEXT USING AN ALGORITHM AND A KEY 
+Different key is used.
 
-ENSURES CONFIDENTIALITY 
+Public key (encrypt)
 
-SYMMETRIC Encryption -->> same key is used for both encry and decryption ( eg:AES, DES).
+and
 
-ASSYMETRIC ENCRYPTION --->> DIFERENT KEY IS USED (public key(encrypt)
+Private key (Decrypt)
 
+Eg: RSA, ECC.
 
+Messaging apps (WhatsApp, Signal) use encryption to protect chats.
 
-and Private key(Decrypt)(egg: RSA , ECC).
+---
 
+### Hashing
 
+A one-way function that converts input data into a fixed-length string.
 
-Messaging apps (WhatsApp signal) use encryption to protect chats.
+Ensures integrity and irreversible.
 
-
-
-**Hashing** --->>  A one way function that converts input datta into fixed length strnng.
-
-
-
-ensures integrity and irreversible.
-
-even a small input change produces a completely different hash(avalanche effect).
-
-
+Even a small input change produces a completely different hash (avalanche effect).
 
 Passwords are stored as hashes instead of plain text in databases.
 
+---
 
+### Digital Signature
 
+A cryptographic mechanism that verifies the authenticity and integrity of digital data.
 
+Sender hashes the message and encrypts the hash with their private key → creating a digital signature.
 
-A cryptographic mechanism that verifies the authencity and integrity of digital data.
+Receiver decrypts the signature using the sender's public key and verifies hash.
 
+Authenticity and integrity.
 
+Provides Non-Repudiation (sender cannot deny sending).
 
-sender hashes the msg and encrypts the hash with their private key --> creating a digital signature.
+Used in Software Distribution, SSL Certificates, Blockchain Transactions.
 
+---
 
+# Public Key and Private Key
 
-Reciever decrypts the signature using the sender's public key and verifies hash.
+A pair of mathematically related cryptographic keys used in asymmetric encryption.
 
+### Public Key
 
+Shared openly; used to encrypt data or verify a digital signature.
 
-Authencity and integrity Provides Non - Repudiation (sender cannot deny sending).
+### Private Key
 
-Used in Software Distribution, SSL Certificates, Blockchain Transactions. 
+Kept Secret; used to decrypt data or create a digital signature.
 
+Data encrypted with a public key can only be decrypted with the corresponding private key.
 
+Ensures secure communication without exchanging secret keys.
 
+---
 
+# Why Cryptography Is Important in Cybersecurity?
 
-**Public key and Private Key :**
+* Confidentiality
+* Integrity
+* Authentication
+* Non-Repudiation
 
+### Real-Life Applications:
 
+Online Banking, E-commerce, VPNs, Cloud Storage, Digital Identity Verification...
 
-**A pair of mathematically related cryptographic keys used in asymmetric encryption.**
+---
 
+# What is VirtualBox?
 
+It is a FREE open-source virtualization software that allows you to run multiple operating systems on a single computer.
 
-**public key--->> shared openly; used to encrypt data or verify a digital signature.**
+It creates a virtual environment (virtual machine) inside your main OS, so you can install and use another OS without affecting your actual computer.
 
+We choose Kali Linux, a Debian-based Linux Distribution specially designed for cybersecurity.
 
+Penetration Testing and Ethical Hacking.
 
-
-
-**Private Key --->> Kept Secret; used to decrypt data or create a digital signature .**
-
-
-
-**data encrypted with a public key can only be decrypted with the corresponding private key.**
-
-**ensures secure ccommunication without exchanging secret keys.**
-
-
-
-
-
-**Why cryptography is imp in Cybersecurity?**
-
-
-
-confidentiality, integrity, authentication , non repudiation Real Life Applications: Online Banking, E-commerce, VPNs, Cloud Storage, Digital identity verification...
-
-
-
-**What is Virtual Box ?**
-
-
-
-
-
-it is A FREE Open source virtualization software that allows you too run multiple operationg systems on a single computer.
-
-
-
-
-
-it creates a virtual environment(virtual machine) inside ur main OS, so you can install and use another os without affecting your actual computer..
-
-
-
-We choose Kali Linux is a Debian - Based Linux Distribution specially designed for cybersecurity.
-
-
-
-Penetration Testing, And Ethical Hacking.
-
-It comes With Hundreds Of Pre Installed tools for network security, forensics, and Vulnerability Testing.
-
-
-
-
-
-
-
-
-
-
-
-&#x20;
-
-
-
-
-
+It comes with Hundreds Of Pre-Installed tools for network security, forensics, and Vulnerability Testing.
