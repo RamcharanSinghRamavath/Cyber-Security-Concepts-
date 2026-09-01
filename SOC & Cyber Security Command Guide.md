@@ -1,5 +1,3 @@
-   
-
 # 🐧 Kali Linux — Beginner to SOC & Cyber Security Command Guide
 
 > A practical **Kali Linux command reference** for beginners who want to build strong Linux fundamentals and progress toward **SOC Analyst / Cyber Security** roles.
